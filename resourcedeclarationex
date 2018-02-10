@@ -1,0 +1,25 @@
+# this file is managed by puppet - any manual edits will be lost
+
+resource_type { tittle:
+  attribute => value,
+  ...
+}
+
+
+# dry run => puppet apply  --noop  --show-diff /path
+
+# package installation
+
+package {'cowsay':
+  ensure => installed,
+}
+
+# puppet resource package openssl
+
+# puppet resource package
+
+# sudo puppet resouce -e package openssl
+
+# puppet describe service
+
+# puppet describe --list
